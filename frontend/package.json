@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "description": "Frontend app handling several CRUD operations on Users/Certificates and their associations",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.1",
+    "react-scripts": "1.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "lodash.indexof": "^4.0.5",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2",
+    "react-list-select": "^0.4.0"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3000/"
+}

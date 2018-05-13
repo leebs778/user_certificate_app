@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend app handling several CRUD operations on Users/Certificates and their associations",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon app.js",
+    "setup": "npm install"
+  },
+  "author": "leebs778",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "mysql": "github:mysqljs/mysql",
+    "validator": "^10.1.0",
+    "when": "^3.7.8"
+  },
+  "private": true,
+  "devDependencies": {}
+}
